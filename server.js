@@ -1,11 +1,15 @@
-// import express
+// import express and cors
 const express = require("express");
 const app = express();
+const cors = require("cors");
 
 const PORT = 8000;
 
 // want to use the static files in the public folder
 app.use(express.static("public"));
+
+// allows our server to handle requests from local files
+app.use(cors());
 
 const animotto = {
   status: "success",
