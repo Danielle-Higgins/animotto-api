@@ -67,23 +67,35 @@ app.get("/api/quotes", (request, response) => {
 });
 
 app.get("/api/quotes/random", (request, response) => {
-  // send a random quote from array
-  const randomIndex = Math.floor(Math.random() * animotto.animeQuotes.length);
-  response.json(animotto.animeQuotes[randomIndex]);
-});
+  // Check if the query parameter is 'anime' or 'character'
+  const anime = request.query.anime;
+  const character = request.query.character;
 
-app.get("/api/quotes/random/:anime", (request, response) => {
-  // send a random quotes based on the name of the anime
-  const anime = request.params.anime.toLowerCase();
-  const animeName = animotto.animeQuotes.filter(
-    (item) => item.anime.name === anime
-  );
+  if (anime) {
+    // Handle the anime query parameter
+    const animeName = animotto.animeQuotes.filter(
+      (item) => item.anime.name.toLowerCase() === anime.toLowerCase()
+    );
 
-  if (animeName.length === 0) {
-    response.status(404).end();
+    if (animeName.length === 0) response.status(404).end();
+
+    response.json(animeName[Math.floor(Math.random() * animeName.length)]);
+  } else if (character) {
+    // Handle the character query parameter
+    const characterName = animotto.animeQuotes.filter(
+      (item) => item.character.toLowerCase() === character.toLowerCase()
+    );
+
+    if (characterName.length === 0) response.status(404).end();
+
+    response.json(
+      characterName[Math.floor(Math.random() * characterName.length)]
+    );
+  } else {
+    // Handle the case where neither query parameter is provided
+    const randomIndex = Math.floor(Math.random() * animotto.animeQuotes.length);
+    response.json(animotto.animeQuotes[randomIndex]);
   }
-
-  response.json(animeName[Math.floor(Math.random() * animeName.length)]);
 });
 
 // the port in whch the server is running
