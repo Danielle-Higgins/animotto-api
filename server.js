@@ -3,6 +3,9 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 
+// grab the data
+const animotto = require("./data/animotto.json");
+
 const PORT = process.env.PORT || 8000;
 
 // want to use the static files in the public folder
@@ -10,46 +13,6 @@ app.use(express.static("public"));
 
 // allows our server to handle requests from local files
 app.use(cors());
-
-const animotto = {
-  status: "success",
-  animeQuotes: [
-    {
-      quote:
-        "What are you so hesitant about? It’s your dream, isn’t it? It’s right in front of you, and you’re wavering? You gotta be reckless and take whatever you can!",
-      anime: {
-        name: "clannad",
-        altName: "kuranado",
-      },
-      character: "tomoya okazaki",
-    },
-    {
-      quote: "If you don’t take risks, you can’t create a future.",
-      anime: {
-        name: "one piece",
-        altName: "wan pīsu",
-      },
-      character: "Monkey D. Luffy",
-    },
-    {
-      quote: "Push through the pain. Giving up hurts more.",
-      anime: {
-        name: "dragon ball z",
-        altName: "doragon bōru zetto",
-      },
-      character: "vegeta",
-    },
-    {
-      quote:
-        "The strong should aid and protect the weak. Then, the weak will become strong, and they in turn will aid and protect those weaker than them. That is the law of nature.",
-      anime: {
-        name: "demon slayer",
-        altName: "kimetsu no yaiba",
-      },
-      character: "tanjiro kamado",
-    },
-  ],
-};
 
 // handle get requests made to the main route
 app.get("/", (request, response) => {
