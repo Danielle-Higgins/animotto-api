@@ -11,6 +11,12 @@
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="./img/icons8-anime-500.png" />
+
+    <!-- Hightlight JS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tomorrow-night-blue.min.css"
+    />
   </head>
   <body>
     <!----- Header ----->
@@ -27,7 +33,7 @@
       </div>
     </header>
 
-    <!----- AniMotto ----->
+    <!----- AniMotto Section ----->
     <section class="animotto">
       <div class="container">
         <div class="animotto-pic">
@@ -54,11 +60,37 @@
       </div>
     </section>
 
+    <!----- Example Usage Section ----->
     <section class="example-usage">
       <div class="container">
         <h2>Example Usage:</h2>
         <p>The below piece of code returns a random quote.</p>
+
+        <pre><code class="language-javascript">
+fetch('http://localhost:8000/api/quotes/random')
+    .then(response =>response.json())
+    .then(quote => console.log(quote))
+          </code> </pre>
+
+        <pre><code class="language-javascript">
+{
+  quote: "The strong should aid and protect the weak. Then, the weak will become strong, and they in turn will aid and protect those weaker than them. That is the law of nature.",
+  anime: {
+    name: "demon slayer",
+    altName: "kimetsu no yaiba",
+  },
+  character: "tanjiro kamado",
+}
+          </code></pre>
       </div>
     </section>
+
+    <section></section>
+
+    <!-- Hightlight JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
   </body>
 </html>

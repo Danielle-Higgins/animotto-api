@@ -88,7 +88,7 @@ img {
   background: none;
   padding: 8px 10px;
   cursor: pointer;
-  border-bottom: 2px solid transparent;
+  border: 2px solid transparent;
   transition: 0.3s;
 }
 
@@ -164,6 +164,36 @@ img {
   background-color: var(--background-color);
   border: 2px solid var(--other-text-color);
   color: var(--other-text-color);
+}
+
+/* ----- Example Usage Section ----- */
+.example-usage {
+  padding: 0 20px 90px;
+}
+
+.example-usage h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+
+.example-usage p {
+  background-color: rgb(231, 237, 189);
+  max-width: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+  color: var(--other-text-color);
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.example-usage pre {
+  white-space: pre-wrap;
+}
+
+.example-usage pre code {
+  border-radius: 5px;
 }
 
 /* ----- Utility Classes ----- */

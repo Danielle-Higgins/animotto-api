@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
 
 // want to use the static files in the public folder
 app.use(express.static("public"));
