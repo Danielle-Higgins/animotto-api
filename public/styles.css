@@ -196,6 +196,28 @@ img {
   border-radius: 5px;
 }
 
+/* ----- About API Section ----- */
+.about-api {
+  padding: 0 20px 90px;
+  color: var(--text-color);
+}
+
+.about-api .container div {
+  margin-bottom: 20px;
+}
+
+.about-api h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.about-api h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
 /* ----- Utility Classes ----- */
 .container {
   max-width: 900px;

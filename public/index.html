@@ -23,11 +23,11 @@
     <header class="header">
       <div class="container">
         <div class="logo">
-          <a href="#">AniMotto</a>
+          <a href="./index.html">AniMotto</a>
         </div>
 
         <div class="info-docs">
-          <a href="" class="api-info">API Info</a>
+          <a href="#about-api" class="api-info">API Info</a>
           <a href="" class="btn">documentation</a>
         </div>
       </div>
@@ -54,7 +54,7 @@
         </div>
 
         <div class="api-links">
-          <a href="" class="view-api">View API Info</a>
+          <a href="#about-api" class="view-api">View API Info</a>
           <a href="" class="btn">View Documentation</a>
         </div>
       </div>
@@ -85,7 +85,45 @@ fetch('http://localhost:8000/api/quotes/random')
       </div>
     </section>
 
-    <section></section>
+    <!----- About API Section ----->
+    <section class="about-api" id="about-api">
+      <div class="container">
+        <h2>API Information</h2>
+
+        <div class="what-is-this">
+          <h3>What kind of API is this?</h3>
+          <p>
+            AniMotto provides an API interface linking to detailed objects built
+            from hundreds of lines of data related to Anime. Using this website,
+            you get access to memorable quotes from various anime characters.
+            You can search for certain quotes based on the name of the anime or
+            the name of the character. This API may be updated occasionally
+            offering more anime information.
+          </p>
+        </div>
+
+        <div class="whats-an-api">
+          <h3>What is an API?</h3>
+          <p>
+            An API (Application Programming Interface) is a piece of code that
+            runs on a server that allows developers to interact with an
+            application through a set of interfaces. In other words, it is a set
+            of rules that allow programs to talk to each other. The developer
+            creates the API on the server and allows the client to talk to it.
+            Interface examples would be URL links.
+          </p>
+        </div>
+
+        <div class="is-it-free">
+          <h3>Is AniMotto free?</h3>
+          <p>
+            AniMotto is completely free! No need for an account or an API key.
+            You can just use the API as you choose. AniMotto will never ask you
+            for payment information so enjoy!
+          </p>
+        </div>
+      </div>
+    </section>
 
     <!-- Hightlight JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
