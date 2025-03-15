@@ -92,6 +92,11 @@
                         <span>Get random quote via anime</span>
                       </a>
                     </li>
+                    <li>
+                      <a href="#quote-character">
+                        <span>Get random quote via character</span>
+                      </a>
+                    </li>
                   </div>
                 </ul>
               </li>
@@ -168,7 +173,7 @@ const data = await response.json()
         </section>
 
         <section class="quote-anime" id="quote-anime">
-          <h2>Get a random quote via anime name</h2>
+          <h2>Get a random quote via Anime name</h2>
           <p>This endpoint returns a random quote from a given Anime name.</p>
           <h3>The endpoint:</h3>
           <pre><code class="language-javascript">/quotes/random?anime=(anime_name)</code></pre>
@@ -183,6 +188,28 @@ const data = await response.json()
 
           <pre><code class="language-javascript">
 const response = await fetch(`${Base_URL}/quotes/random?anime=one piece`)
+const data = await response.json()
+            </code></pre>
+        </section>
+
+        <section class="quote-character" id="quote-character">
+          <h2>Get a random quote via Character name</h2>
+          <p>
+            This endpoint returns a random quote from a given Character name.
+          </p>
+          <h3>The endpoint:</h3>
+          <pre><code class="language-javascript">/quotes/random?character=(character_name)</code></pre>
+          <h3>Return</h3>
+          <p>It will return a <span>Quote</span> object</p>
+          <h3>Example:</h3>
+          <p>
+            Here, we are using the global web API called fetch, which is both
+            available in browser and NodeJS as of now. But you can use any
+            programming language of your choosing.
+          </p>
+
+          <pre><code class="language-javascript">
+const response = await fetch(`${Base_URL}/quotes/random?character=monkey d. luffy`)
 const data = await response.json()
             </code></pre>
         </section>

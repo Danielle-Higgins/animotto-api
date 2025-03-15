@@ -425,14 +425,16 @@ body#documentation {
 /* ----- Random Quote Section styles ----- */
 /* ----- Random Anime Quote Section styles ----- */
 #documentation .random-quote span,
-#documentation .quote-anime span {
+#documentation .quote-anime span,
+#documentation .quote-character span {
   background-color: var(--other-text-color);
   padding: 5px;
   border-radius: 8px;
 }
 
 #documentation .random-quote p:nth-child(8),
-#documentation .quote-anime p:nth-child(8) {
+#documentation .quote-anime p:nth-child(8),
+#documentation .quote-character p:nth-child(8) {
   opacity: 0.8;
   border-left: 2px solid black;
   padding-left: 20px;
