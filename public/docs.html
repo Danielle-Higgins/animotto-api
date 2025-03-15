@@ -78,8 +78,13 @@
                 <ul class="sub-menu">
                   <div>
                     <li>
-                      <a href="">
+                      <a href="#quote-obj">
                         <span>The 'Quote' object</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <span>Get random Quote</span>
                       </a>
                     </li>
                   </div>
@@ -113,6 +118,26 @@
             explanations of how to use them. If you want to know where you are
             currently, you are on the overview.
           </p>
+        </section>
+
+        <section class="quote-obj" id="quote-obj">
+          <h2>The Quote object</h2>
+          <p>
+            The is the JSON structure that gets returned for all
+            <span>/quotes</span>
+            endpoints.
+          </p>
+
+          <pre><code class="language-javascript">
+{
+    quote: "The strong should aid and protect the weak. Then, the weak will become strong, and they in turn will aid and protect those weaker than them. That is the law of nature.",
+    anime: {
+        name: "demon slayer",
+        altName: "kimetsu no yaiba",
+    },
+    character: "tanjiro kamado",
+}
+        </code></pre>
         </section>
       </div>
     </main>
