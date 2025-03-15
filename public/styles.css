@@ -218,6 +218,140 @@ img {
   margin-bottom: 10px;
 }
 
+/* ----- Documentation Page ----- */
+body#documentation {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+/* ----- Sidebar styles ----- */
+#sidebar {
+  height: 100vh;
+  width: 300px;
+  padding: 100px 20px 90px;
+  border-right: 2px solid var(--other-text-color);
+  background-color: var(--other-text-color);
+
+  position: sticky;
+  top: 0;
+  align-self: start;
+  transition: 0.3s;
+  overflow: hidden;
+  text-wrap: nowrap;
+}
+
+#sidebar.close {
+  padding: 100px 5px 90px;
+  width: 60px;
+}
+
+#sidebar > ul > li:first-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.animotto-logo {
+  width: 70px;
+  flex-shrink: 0;
+}
+
+#sidebar ul li.active a {
+  color: rgb(231, 237, 189);
+}
+
+#sidebar ul li.active a i {
+  color: rgb(231, 237, 189);
+}
+
+#sidebar i {
+  font-size: 2.5rem;
+  flex-shrink: 0;
+}
+
+#sidebar a,
+#sidebar .dropdown-btn {
+  border-radius: 8px;
+  padding: 14px;
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.dropdown-btn {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+#sidebar a span,
+#sidebar .dropdown-btn span {
+  flex-grow: 1;
+}
+
+#sidebar a:hover,
+#sidebar .dropdown-btn:hover {
+  background-color: rgba(33, 158, 188, 0.5);
+}
+
+#sidebar .sub-menu {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: 0.3s;
+}
+
+#sidebar .sub-menu > div {
+  overflow: hidden;
+}
+
+#sidebar .sub-menu.show {
+  grid-template-rows: 1fr;
+}
+
+.dropdown-btn i {
+  transition: 0.2s;
+}
+
+.rotate i:last-child {
+  rotate: -180deg;
+}
+
+#sidebar .sub-menu > * {
+  padding-left: 32px;
+}
+
+#toggle-btn {
+  margin-left: auto;
+  padding: 10px;
+  border: none;
+  background: none;
+  color: var(--text-color);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#toggle-btn i {
+  transition: 0.2s;
+}
+
+#toggle-btn:hover {
+  background-color: rgba(33, 158, 188, 0.5);
+}
+
+/**/
+#documentation main {
+  padding: 120px 20px 90px;
+}
+
 /* ----- Utility Classes ----- */
 .container {
   max-width: 900px;

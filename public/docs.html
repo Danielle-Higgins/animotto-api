@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<!-- Icon website: https://icons8.com/icons/set/anime -->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AniMotto API docs</title>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./img/icons8-anime-500.png" />
+
+    <!-- Hightlight JS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tomorrow-night-blue.min.css"
+    />
+  </head>
+  <body id="documentation">
+    <!----- Header ----->
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <a href="./index.html">AniMotto</a>
+        </div>
+
+        <div class="info-docs">
+          <a href="./index.html" class="api-info">Home</a>
+          <a href="./docs.html" class="btn">documentation</a>
+        </div>
+      </div>
+    </header>
+
+    <!----- Aside (Sidebar) ----->
+    <aside class="doc-nav" id="sidebar">
+      <ul>
+        <li>
+          <span class="animotto-logo"
+            ><img src="./img/icons8-anime-500.png" alt="animotto picture"
+          /></span>
+          <button id="toggle-btn">
+            <i class="fa-solid fa-angles-left"></i>
+          </button>
+        </li>
+        <li>
+          <button class="dropdown-btn">
+            <i class="fa-solid fa-file"></i>
+            <span>Docs</span>
+            <i class="fa-solid fa-angle-down"></i>
+          </button>
+          <ul class="sub-menu">
+            <div>
+              <li>
+                <a href="">
+                  <i class="fa-regular fa-file-lines"></i>
+                  <span>Overview</span>
+                </a>
+              </li>
+              <li>
+                <button class="dropdown-btn">
+                  <i class="fa-solid fa-quote-left"></i>
+                  <span>Quote</span>
+                  <i class="fa-solid fa-angle-down"></i>
+                </button>
+                <ul class="sub-menu">
+                  <div>
+                    <li class="active">
+                      <a href="">
+                        <span>The 'Quote' object</span>
+                      </a>
+                    </li>
+                  </div>
+                </ul>
+              </li>
+            </div>
+          </ul>
+        </li>
+      </ul>
+    </aside>
+
+    <!----- Main ----->
+    <main>
+      <h1>AniMotto API doc</h1>
+      <p>The Base URL</p>
+    </main>
+
+    <!-- Hightlight JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
