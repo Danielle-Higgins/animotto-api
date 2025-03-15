@@ -108,6 +108,10 @@ img {
   border: 2px solid var(--other-text-color);
 }
 
+.header .info-docs .shorten {
+  display: none;
+}
+
 /* ----- AniMotto Section Styles ----- */
 .animotto {
   padding: 120px 20px 90px;
@@ -116,7 +120,7 @@ img {
 }
 
 .animotto .animotto-pic {
-  width: 270px;
+  max-width: 270px;
   margin: auto;
 }
 
@@ -164,6 +168,11 @@ img {
   background-color: var(--background-color);
   border: 2px solid var(--other-text-color);
   color: var(--other-text-color);
+}
+
+.animotto .api-links .view-api.shorten,
+.animotto .api-links .btn.shorten {
+  display: none;
 }
 
 /* ----- Example Usage Section ----- */
@@ -281,14 +290,6 @@ body#documentation {
 .animotto-logo {
   width: 70px;
   flex-shrink: 0;
-}
-
-#sidebar ul li.active a {
-  color: rgb(231, 237, 189);
-}
-
-#sidebar ul li.active a i {
-  color: rgb(231, 237, 189);
 }
 
 #sidebar i {
@@ -438,6 +439,53 @@ body#documentation {
   opacity: 0.8;
   border-left: 2px solid black;
   padding-left: 20px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 900px) {
+  .animotto .text-container h1 {
+    font-size: 5rem;
+  }
+
+  .animotto .text-container p {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header .logo a {
+    font-size: 1.6rem;
+  }
+
+  .header .info-docs .full {
+    display: none;
+  }
+
+  .header .info-docs .shorten {
+    display: inline-block;
+  }
+
+  .animotto .text-container h1 {
+    font-size: 4rem;
+  }
+
+  .animotto .text-container p {
+    font-size: 1.6rem;
+  }
+
+  .animotto .api-links .view-api.full,
+  .animotto .api-links .btn.full {
+    display: none;
+  }
+
+  .animotto .api-links .view-api.shorten,
+  .animotto .api-links .btn.shorten {
+    display: inline;
+  }
+
+  .example-usage pre {
+    font-size: 1rem;
+  }
 }
 
 /* ----- Utility Classes ----- */
