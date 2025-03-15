@@ -83,7 +83,7 @@
                       </a>
                     </li>
                     <li>
-                      <a href="">
+                      <a href="#random-quote">
                         <span>Get random Quote</span>
                       </a>
                     </li>
@@ -137,6 +137,28 @@
     },
     character: "tanjiro kamado",
 }
+        </code></pre>
+        </section>
+
+        <section class="random-quote" id="random-quote">
+          <h2>Get a random quote</h2>
+          <p>
+            This endpoint responds with a random quote from any anime/character.
+          </p>
+          <h3>The endpoint:</h3>
+          <pre><code class="language-javascript">/quotes/random</code></pre>
+          <h3>Return</h3>
+          <p>It will return a <span>Quote</span> object</p>
+          <h3>Example:</h3>
+          <p>
+            Here, we are using the global web API called fetch, which is both
+            available in browser and NodeJS as of now. But you can use any
+            programming language of your choosing.
+          </p>
+
+          <pre><code class="language-javascript">
+const response = await fetch(`${Base_URL}/quotes/random`)
+const data = await response.json()
         </code></pre>
         </section>
       </div>

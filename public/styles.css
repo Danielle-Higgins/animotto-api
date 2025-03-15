@@ -348,7 +348,7 @@ body#documentation {
 
 /* ----- Main styles ----- */
 #documentation main {
-  padding: 130px 20px 90px;
+  padding: 50px 20px 90px;
   color: var(--text-color);
 }
 
@@ -357,8 +357,10 @@ body#documentation {
 }
 
 /* ----- Overview Section styles ----- */
-#documentation .overview {
-  padding-bottom: 90px;
+#documentation .overview,
+#documentation .quote-obj,
+#documentation .random-quote {
+  padding-top: 90px;
   max-width: 900px;
 }
 
@@ -390,18 +392,15 @@ body#documentation {
 }
 
 /* ----- Quote Obj Section styles ----- */
-#documentation .quote-obj {
-  padding-bottom: 90px;
-  max-width: 900px;
-}
-
-#documentation .quote-obj h2 {
+#documentation .quote-obj h2,
+#documentation .random-quote h2 {
   font-size: 2.5rem;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
-#documentation .quote-obj p {
+#documentation .quote-obj p,
+#documentation .random-quote p {
   margin-bottom: 20px;
 }
 
@@ -413,12 +412,37 @@ body#documentation {
   border-radius: 10px;
 }
 
-#documentation .quote-obj pre {
+#documentation .quote-obj pre,
+#documentation .random-quote pre {
   white-space: pre-wrap;
 }
 
-#documentation .quote-obj code {
+#documentation .quote-obj code,
+#documentation .random-quote code {
   border-radius: 5px;
+}
+
+/* ----- Random Quote Section styles ----- */
+#documentation .random-quote h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#documentation .random-quote pre {
+  margin-bottom: 40px;
+}
+
+#documentation .random-quote span {
+  background-color: var(--other-text-color);
+  padding: 5px;
+  border-radius: 8px;
+}
+
+#documentation .random-quote p:nth-child(8) {
+  opacity: 0.8;
+  border-left: 2px solid black;
+  padding-left: 20px;
 }
 
 /* ----- Utility Classes ----- */
