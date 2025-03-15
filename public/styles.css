@@ -347,9 +347,43 @@ body#documentation {
   background-color: rgba(33, 158, 188, 0.5);
 }
 
-/**/
+/* ----- Main styles ----- */
 #documentation main {
   padding: 120px 20px 90px;
+  color: var(--text-color);
+}
+
+#documentation .docs .container {
+  max-width: 1200px;
+}
+
+/* ----- Overview Section styles ----- */
+#documentation .overview h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#documentation .overview p:first-of-type {
+  background-color: #ffb703;
+  color: var(--other-text-color);
+  max-width: fit-content;
+  font-weight: 500;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#documentation .overview .base-url {
+  border: 2px solid var(--text-color);
+  background-color: rgba(237, 236, 231, 0.5);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+#documentation .overview p {
+  margin-bottom: 15px;
+  max-width: 900px;
+  font-weight: 400;
 }
 
 /* ----- Utility Classes ----- */
