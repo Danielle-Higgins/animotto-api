@@ -16,6 +16,7 @@ Are you building an application and want access to quotes from your favorite ani
   <img src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white">
   <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB">
   <img src="https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD">
+  <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white">
 </p>
 
 This API is built using Node.JS with the Express.JS framework. The server file will handle requests coming in from the client based on the routes it's making requests to. When making a request to the main route, the index page will display which is the documentation to the API. The documentation will tell the user how to use the API and about the different endpoints that are available. If you want more information, check out the documentation! All the static files are located within the public folder and as of right now, and the data in the data folder which will be eventually transferred into a database.
@@ -27,3 +28,7 @@ If/when I improve this project, I would like to include the sidebar onto smaller
 ## Lessons Learned
 
 I learned to build an API, how to include a favicon inside of the browser tab, and how to include code snippets using pre/code tags and use highlight JS to highlight the code.
+
+## Changes I've Made
+
+I transferred the data in a database instead of having the data hardcoded locally.
