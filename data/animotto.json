@@ -1,154 +1,157 @@
-[
-  {
-    "quote": "What are you so hesitant about? It’s your dream, isn’t it? It’s right in front of you, and you’re wavering? You gotta be reckless and take whatever you can!",
-    "anime": {
-      "name": "clannad",
-      "altName": "kuranado"
+{
+  "status": "success",
+  "animeQuotes": [
+    {
+      "quote": "What are you so hesitant about? It’s your dream, isn’t it? It’s right in front of you, and you’re wavering? You gotta be reckless and take whatever you can!",
+      "anime": {
+        "name": "clannad",
+        "altName": "kuranado"
+      },
+      "character": "tomoya okazaki"
     },
-    "character": "tomoya okazaki"
-  },
-  {
-    "quote": "If you don’t take risks, you can’t create a future.",
-    "anime": {
-      "name": "one piece",
-      "altName": "wan pīsu"
+    {
+      "quote": "If you don’t take risks, you can’t create a future.",
+      "anime": {
+        "name": "one piece",
+        "altName": "wan pīsu"
+      },
+      "character": "monkey d. luffy"
     },
-    "character": "monkey d. luffy"
-  },
-  {
-    "quote": "Push through the pain. Giving up hurts more.",
-    "anime": {
-      "name": "dragon ball z",
-      "altName": "doragon bōru zetto"
+    {
+      "quote": "Push through the pain. Giving up hurts more.",
+      "anime": {
+        "name": "dragon ball z",
+        "altName": "doragon bōru zetto"
+      },
+      "character": "vegeta"
     },
-    "character": "vegeta"
-  },
-  {
-    "quote": "The strong should aid and protect the weak. Then, the weak will become strong, and they in turn will aid and protect those weaker than them. That is the law of nature.",
-    "anime": {
-      "name": "demon slayer",
-      "altName": "kimetsu no yaiba"
+    {
+      "quote": "The strong should aid and protect the weak. Then, the weak will become strong, and they in turn will aid and protect those weaker than them. That is the law of nature.",
+      "anime": {
+        "name": "demon slayer",
+        "altName": "kimetsu no yaiba"
+      },
+      "character": "tanjiro kamado"
     },
-    "character": "tanjiro kamado"
-  },
-  {
-    "quote": "Hard work is worthless for those that don’t believe in themselves.",
-    "anime": {
-      "name": "naruto",
-      "altName": "naruto"
+    {
+      "quote": "Hard work is worthless for those that don’t believe in themselves.",
+      "anime": {
+        "name": "naruto",
+        "altName": "naruto"
+      },
+      "character": "naruto uzumaki"
     },
-    "character": "naruto uzumaki"
-  },
-  {
-    "quote": "The important thing is not how long you live. It’s what you accomplish with your life.",
-    "anime": {
-      "name": "pokemon",
-      "altName": "pocket monsters"
+    {
+      "quote": "The important thing is not how long you live. It’s what you accomplish with your life.",
+      "anime": {
+        "name": "pokemon",
+        "altName": "pocket monsters"
+      },
+      "character": "grovyle"
     },
-    "character": "grovyle"
-  },
-  {
-    "quote": "It's quiet, but can you hear it? Little by little, the tides are changing, and the world with them.",
-    "anime": {
-      "name": "one piece",
-      "altName": "wan pīsu"
+    {
+      "quote": "It's quiet, but can you hear it? Little by little, the tides are changing, and the world with them.",
+      "anime": {
+        "name": "one piece",
+        "altName": "wan pīsu"
+      },
+      "character": "shakuyaku"
     },
-    "character": "shakuyaku"
-  },
-  {
-    "quote": "Nothing’s perfect, the world’s not perfect, but it’s there for us, trying the best it can. That’s what makes it so damn beautiful.",
-    "anime": {
-      "name": "fullmetal alchemist",
-      "altName": "hagane no renkinjutsushi"
+    {
+      "quote": "Nothing’s perfect, the world’s not perfect, but it’s there for us, trying the best it can. That’s what makes it so damn beautiful.",
+      "anime": {
+        "name": "fullmetal alchemist",
+        "altName": "hagane no renkinjutsushi"
+      },
+      "character": "roy mustang"
     },
-    "character": "roy mustang"
-  },
-  {
-    "quote": "If you never listen to anyone, you can't give proper advice.",
-    "anime": {
-      "name": "the boy and the beast",
-      "altName": "bakemono no ko"
+    {
+      "quote": "If you never listen to anyone, you can't give proper advice.",
+      "anime": {
+        "name": "the boy and the beast",
+        "altName": "bakemono no ko"
+      },
+      "character": "monk momoaki"
     },
-    "character": "monk momoaki"
-  },
-  {
-    "quote": "Sometimes you need a little wishful thinking to keep on living.",
-    "anime": {
-      "name": "neon genesis evangelion",
-      "altName": "shin seiki Evangerion"
+    {
+      "quote": "Sometimes you need a little wishful thinking to keep on living.",
+      "anime": {
+        "name": "neon genesis evangelion",
+        "altName": "shin seiki Evangerion"
+      },
+      "character": "misato katsuragi"
     },
-    "character": "misato katsuragi"
-  },
-  {
-    "quote": "I guess, as long as I have life, all I can do is fight with all my might.",
-    "anime": {
-      "name": "re:zero",
-      "altName": "re:zero"
+    {
+      "quote": "I guess, as long as I have life, all I can do is fight with all my might.",
+      "anime": {
+        "name": "re:zero",
+        "altName": "re:zero"
+      },
+      "character": "subaru natsuki"
     },
-    "character": "subaru natsuki"
-  },
-  {
-    "quote": "When you give up, that’s when the game ends.",
-    "anime": {
-      "name": "slam dunk",
-      "altName": "suramu danku"
+    {
+      "quote": "When you give up, that’s when the game ends.",
+      "anime": {
+        "name": "slam dunk",
+        "altName": "suramu danku"
+      },
+      "character": "mitsuyoshi anzai"
     },
-    "character": "mitsuyoshi anzai"
-  },
-  {
-    "quote": "You see, sometimes friends have to go away, but a part of them stays behind with you.",
-    "anime": {
-      "name": "pokemon",
-      "altName": "pocket monsters"
+    {
+      "quote": "You see, sometimes friends have to go away, but a part of them stays behind with you.",
+      "anime": {
+        "name": "pokemon",
+        "altName": "pocket monsters"
+      },
+      "character": "ash ketchum"
     },
-    "character": "ash ketchum"
-  },
-  {
-    "quote": "Sometimes, we have to look beyond what we want and do what’s best.",
-    "anime": {
-      "name": "dragon ball z",
-      "altName": "doragon bōru zetto"
+    {
+      "quote": "Sometimes, we have to look beyond what we want and do what’s best.",
+      "anime": {
+        "name": "dragon ball z",
+        "altName": "doragon bōru zetto"
+      },
+      "character": "piccolo"
     },
-    "character": "piccolo"
-  },
-  {
-    "quote": "You're gonna care what other people think and be someone you're not your whole life? You’re fine as you are. So, talk in your own words.",
-    "anime": {
-      "name": "attack on titan",
-      "altName": "shingeki no kyojin"
+    {
+      "quote": "You're gonna care what other people think and be someone you're not your whole life? You’re fine as you are. So, talk in your own words.",
+      "anime": {
+        "name": "attack on titan",
+        "altName": "shingeki no kyojin"
+      },
+      "character": "ymir"
     },
-    "character": "ymir"
-  },
-  {
-    "quote": "You will never be able to love anybody else until you love yourself.",
-    "anime": {
-      "name": "code geass",
-      "altName": "kōdo giasu"
+    {
+      "quote": "You will never be able to love anybody else until you love yourself.",
+      "anime": {
+        "name": "code geass",
+        "altName": "kōdo giasu"
+      },
+      "character": "lelouch lamperouge"
     },
-    "character": "lelouch lamperouge"
-  },
-  {
-    "quote": "Dead people receive more flowers than living ones because regret is stronger than gratitude.",
-    "anime": {
-      "name": "violet evergarden",
-      "altName": "vaioretto evāgāden"
+    {
+      "quote": "Dead people receive more flowers than living ones because regret is stronger than gratitude.",
+      "anime": {
+        "name": "violet evergarden",
+        "altName": "vaioretto evāgāden"
+      },
+      "character": "violet evergarden"
     },
-    "character": "violet evergarden"
-  },
-  {
-    "quote": "Life is short, so it will be appreciated. We live to our fullest due to that.",
-    "anime": {
-      "name": "detective conan",
-      "altName": "mitantei konan"
+    {
+      "quote": "Life is short, so it will be appreciated. We live to our fullest due to that.",
+      "anime": {
+        "name": "detective conan",
+        "altName": "mitantei konan"
+      },
+      "character": "heiji hattori"
     },
-    "character": "heiji hattori"
-  },
-  {
-    "quote": "Searching for someone to blame is such a pain.",
-    "anime": {
-      "name": "jujutsu kaisen",
-      "altName": "jujustu kaisen"
-    },
-    "character": "satoru gojo"
-  }
-]
+    {
+      "quote": "Searching for someone to blame is such a pain.",
+      "anime": {
+        "name": "jujutsu kaisen",
+        "altName": "jujustu kaisen"
+      },
+      "character": "satoru gojo"
+    }
+  ]
+}
